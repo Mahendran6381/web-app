@@ -5,6 +5,9 @@ body {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+.lvk .road .main {
+  padding-top: 100px;
+}
 .lvk .road .main img {
   max-height: 900px;
 }
@@ -28,22 +31,28 @@ body {
 .lvk .road .fixed-images {
   display: flex;
   flex-wrap: wrap;
-  gap: 10rem;
+  gap: 8rem;
   position: absolute;
   top: -10px;
   left: 200px;
 }
 .lvk .road .fixed-images .row .part-image {
-  max-height: 400px;
-  max-width: 360px;
+  max-height: 300px;
+  max-width: 18.3em;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: justify;
+  font-weight: 500;
 }
 .lvk .road .fixed-images .row {
   display: flex;
   gap: 4rem;
 }
 .lvk .road .fixed-images .row .part-image img {
-  max-height: 11em;
+  max-height: 15em;
 }
-.1st-image {
+
+.first-image {
   width: 11em;
 }
