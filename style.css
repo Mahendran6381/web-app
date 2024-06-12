@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.lvk .road .main img {
+  max-height: 900px;
+}
+.lvk .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 4rem;
+  width: 70%;
+  max-width: 100%;
+}
+.lvk .text .head {
+  max-height: 144px;
+  line-height: 3rem;
+  font-weight: 600;
+}
+.lvk .road {
+  position: relative;
+}
+.lvk .road .fixed-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rem;
+  position: absolute;
+  top: -10px;
+  left: 200px;
+}
+.lvk .road .fixed-images .row .part-image {
+  max-height: 400px;
+  max-width: 360px;
+}
+.lvk .road .fixed-images .row {
+  display: flex;
+  gap: 4rem;
+}
+.lvk .road .fixed-images .row .part-image img {
+  max-height: 11em;
+}
+.1st-image {
+  width: 11em;
+}
