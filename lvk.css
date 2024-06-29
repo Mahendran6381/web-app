@@ -1,0 +1,2300 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    position: relative;
+    top: -8px;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+
+}
+
+.loving-kindness .blue-text {
+    color: #10BBC2;
+}
+
+.loving-kindness .do .inner-do .blue {
+    width: 6vw;
+}
+
+
+@media screen and (max-width: 800px) {
+      .loving-kindness .icon-s {
+               height: 17px ;
+        width: 17px ;
+        position: relative;
+        top: 0.5vw ;
+
+    }
+
+     
+    .loving-kindness .table .inner-table {
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 6vw;
+        width: 80vw;
+    }
+
+
+    .loving-kindness .table .inner-table .col-3 {
+        display: flex;
+        flex-direction: column;
+        min-width: 100vw;
+        height: 250px;
+    }
+
+
+
+    .loving-kindness .debate {
+        display: flex;
+        gap: 5vw;
+        width: 100vw;
+        background-color: #10BBC2;
+        color: white;
+        flex-direction: column;
+    }
+
+    .loving-kindness .region-shield {
+        background-image: url("./Assets/loving kindness/Rectangle 289.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .loving-kindness .dont-do .inner-dont .dont .contents {
+        display: flex;
+        gap: 4vw;
+        align-items: center;
+    }
+
+    .loving-kindness .do .inner-do .contents {
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 6vw;
+        gap: 1vw;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .loving-kindness .table .inner-table .col .head {
+        background-color: #10BBC2;
+        color: white;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loving-kindness .table .inner-table .col-2 .head {
+        height: 6.7vw;
+    }
+
+    body {
+        line-height: 7vw;
+    }
+}
+
+.frame-image img {
+    width: 100vw;
+}
+
+.loving-kindness .achive-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 4vw 0vw 4vw 0vw;
+    background: #F3FCFC;
+}
+
+.loving-kindness .achive-sec .achivement {
+    position: inherit;
+    display: flex;
+    gap: 5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 90%;
+
+}
+
+.loving-kindness .achive-sec .achivement .text {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.loving-kindness .achive-sec .achivement .text .head {
+       margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 95%;
+}
+
+.loving-kindness .achive-sec .achivement .text .p {
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 500;
+    gap: 1vw;
+    width: 85%;
+}
+
+.loving-kindness .achive-sec .achivement .text .p .ind-p {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.loving-kindness .achive-sec .achivement .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: center;
+}
+
+.loving-kindness .achive-sec .achivement .image-grid .small-image{
+      display: flex;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+.loving-kindness .achive-sec .achivement .image-grid .small {
+
+       max-height: 14.7vw;
+}
+
+.loving-kindness .achive-sec .achivement .image-grid .rectangle {
+    max-height: 15vw;
+}
+
+
+
+@media only screen and (max-width:800px) {
+    .loving-kindness .activity .inner-activity .contents .sec .image {
+    width: 75vw !important;
+    margin: 1vw;
+}
+
+
+
+    .loving-kindness .achive-sec .achivement {
+        position: inherit;
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        width: 90%;
+    }
+
+    .loving-kindness .achive-sec .achivement .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .loving-kindness .achive-sec .achivement .text .head {
+
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+
+    }
+
+    .loving-kindness .achive-sec .achivement .text .p {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        justify-content: space-between;
+
+    }
+
+    .loving-kindness .achive-sec .achivement .image-grid {
+        position: relative;
+        left: 5vw;
+    }
+
+    .loving-kindness .achive-sec .achivement .image-grid .small {
+        max-width: 45vw;
+        max-height: 35vw;
+    }
+
+    .loving-kindness .achive-sec .achivement .image-grid .rectangle {
+        max-width: 81.7vw;
+        max-height: 35vw;
+    }
+
+
+}
+
+
+
+.loving-kindness .family {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.loving-kindness .family .family-sec {
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.loving-kindness .family .family-sec .main {
+ position: inherit;
+    display: flex;
+    gap: 7vw;
+    width: 90%;
+    align-items: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+
+.loving-kindness .family .family-sec .main .image img {
+    width: 35vw;
+}
+
+
+
+.loving-kindness .family .family-sec .main .content .p {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+
+
+.loving-kindness .family .family-sec .main .content {
+      display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 50%;
+    position: relative;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.loving-kindness .family .family-sec .header {
+
+    text-align: center;
+
+}
+
+.loving-kindness .family .family-sec .blue {
+    background: #10BBC2;
+    width: 7vw;
+    height: 0.5vh;
+    margin-top: 1vw;
+}
+
+@media only screen and (max-width:800px) {
+    .loving-kindness .growing-sec .inner-growing-sec {
+        display: flex;
+        gap: 3vw;
+        padding: 0vw 4vw;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .loving-kindness .family .family-sec .header {
+
+        text-align: center;
+
+    }
+
+    .loving-kindness .growing-sec .inner-growing-sec .major-div {
+        max-width: 90%;
+    }
+
+    .loving-kindness .family .family-sec .main .content .p p {
+
+
+        text-align: justify;
+    }
+
+    .loving-kindness .family .family-sec .main .image img {
+        height: 42vw;
+        width: 85vw;
+    }
+
+ 
+
+    .loving-kindness .family .family-sec .main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.loving-kindness .debate {
+    display: flex;
+    gap: 5vw;
+    width: 100vw;
+    background-color: #10BBC2;
+    color: white;
+    margin-top: 4vw;
+}
+
+.loving-kindness .debate .image {
+    width: 42vw;
+}
+
+.loving-kindness .debate .image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.loving-kindness .debate .content .text .white-cross {
+    height: 2px;
+    color: white;
+    background-color: white;
+}
+
+.loving-kindness .debate .content .text .p .ind-p {
+    display: flex;
+    gap: 20px;
+
+}
+
+.loving-kindness .debate .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 45%;
+    text-align: justify;
+}
+
+.loving-kindness .debate .content .text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+
+}
+.loving-kindness .debate .content .text .head{
+      border-bottom: 1px solid white;
+    padding-bottom:20px;
+    margin-bottom: 20px;
+}
+
+.loving-kindness .debate .content .p {
+    position: relative;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 0.5vw;
+
+}
+
+.loving-kindness .region-shield {
+    background-image: url("./Assets/loving kindness/Rectangle 289.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+      padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.loving-kindness .region-shield .inner-region {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 60%;
+}
+
+
+
+.loving-kindness .region-shield .inner-region .p {
+    width: 84%;
+    text-align: center;
+}
+
+.loving-kindness .activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+
+.loving-kindness .activity .inner-activity {
+     display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    text-align: justify;
+    margin: 50px;
+}
+
+
+.loving-kindness .activity .inner-activity .head {
+
+    text-align: center;
+    width: 70%;
+}
+
+.loving-kindness .activity .inner-activity .blue {
+background: #10BBC2; width: 10vw; height: 0.5vh; margin-top: 1vw;
+  }
+
+.loving-kindness .activity .inner-activity .contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loving-kindness .activity .inner-activity .contents .sec-1 {
+    display: flex;
+    gap: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 90%;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.loving-kindness .activity .inner-activity .contents .sec-2 {
+    display: flex;
+
+    gap: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 90%;
+    align-items: center;
+}
+
+.loving-kindness .activity .inner-activity .contents .sec .image {
+      width: 39vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loving-kindness .activity .inner-activity .contents .sec img {
+
+
+    width: 40vw;
+}
+
+.loving-kindness .activity .inner-activity .contents .sec .p {
+    display: flex;
+    flex-direction: column;
+    gap: 0vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
+
+.loving-kindness .activity .inner-activity .contents .sec .p .int-p {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+
+
+.loving-kindness .activity .inner-activity .contents .sec .p .int-p .color-blue {
+    color: #10BBC2;
+    cursor: pointer;
+}
+
+.loving-kindness .participent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 2vw;
+}
+
+.loving-kindness .participent .inner-participent {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    text-align: justify;
+}
+
+.loving-kindness .participent .inner-participent .head {
+
+    width: 60%;
+    text-align: center;
+
+}
+
+.loving-kindness .participent .inner-participent .blue {
+    background: #10BBC2;
+    width: 10vw;
+    height: 0.5vh;
+    margin-top: 1vw;
+}
+
+.loving-kindness .participent .inner-participent .contents {
+    display: flex;
+    gap: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 90%;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.loving-kindness .participent .inner-participent .contents .ind-p {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+
+
+.loving-kindness .participent .inner-participent .contents .p {
+        display: flex;
+    flex-direction: column;
+    /* gap: 0.5vw; */
+    text-align: justify;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+}
+
+.loving-kindness .participent .inner-participent .contents img {
+    width: 30vw;
+}
+
+.loving-kindness .growing-sec {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: rgb(131, 224, 249);
+    background: linear-gradient(86deg, rgba(131, 224, 249, 1) 39%, rgba(237, 237, 237, 1) 89%);
+}
+
+.loving-kindness .growing-sec .inner-growing-sec {
+    display: flex;
+    gap: 3vw;
+    padding: 3vw 4vw;
+    align-items: center;
+}
+
+.loving-kindness .growing-sec .inner-growing-sec .major-div {
+
+    max-width: 40%;
+}
+
+.loving-kindness .growing-sec .inner-growing-sec .minor-d {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    text-align: justify;
+    width: 70vw;
+    padding: 2vw;
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+.loving-kindness .growing-sec .inner-growing-sec .minor-d .ind-p {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+
+
+.loving-kindness .do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.loving-kindness .do .inner-do {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 6vw;
+    gap: 1vw;
+    text-align: justify;
+}
+
+
+.loving-kindness .do .inner-do .contents {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 4vw;
+    align-items: center;
+
+}
+
+.loving-kindness .do .inner-do .contents img {
+    height: 25vw;
+    width: 50vw;
+}
+
+.loving-kindness .do .inner-do .contents .p {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.loving-kindness .do .inner-do .contents .p .ind-p {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+
+.loving-kindness .dont-do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loving-kindness .dont-do .inner-dont {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw 6vw;
+    align-items: center;
+}
+
+.loving-kindness .dont-do .inner-dont .head {
+
+    text-align: center;
+    width: 80%;
+}
+
+.loving-kindness .dont-do .inner-dont .blue {
+    background: #10BBC2;
+    width: 10vw;
+    height: 0.5vh;
+    margin-top: 1vw;
+}
+
+.loving-kindness .dont-do .inner-dont .dont {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+}
+
+
+.loving-kindness .dont-do .inner-dont .dont .head {
+
+    text-align: center;
+}
+
+.loving-kindness .dont-do .inner-dont .dont .contents {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+
+.loving-kindness .dont-do .inner-dont .dont .contents img {
+    height: 25vw;
+    width: 50vw;
+}
+
+.loving-kindness .dont-do .inner-dont .dont .contents .p {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.loving-kindness .dont-do .inner-dont .dont .contents .p .ind-p {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+
+.loving-kindness .spread-kindness {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.loving-kindness .spread-kindness .inner-spread-kindness {
+    display: flex;
+    gap: 3vw;
+    padding: 2vw 6vw;
+    align-items: center;
+}
+
+.loving-kindness .spread-kindness .inner-spread-kindness .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    align-items: center;
+    text-align: justify;
+}
+
+.loving-kindness .spread-kindness .inner-spread-kindness img {
+    width: 28vw;
+}
+.loving-kindness .spread-kindness .inner-spread-kindness .contents .head-2{
+  font-size: 17px;
+    font-weight: 600;
+}
+.loving-kindness .spread-kindness .inner-spread-kindness .contents .head-1 {
+
+    text-align: left;
+}
+
+
+
+.loving-kindness .spread-kindness .inner-spread-kindness .contents .p {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loving-kindness .spread-kindness .inner-spread-kindness .contents .p .ind-p {
+    display: flex;
+    gap: 1vw;
+}
+
+
+
+
+
+.loving-kindness .initiate-kindness {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("./Assets/loving kindness/Rectangle 298.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+
+}
+
+.loving-kindness .initiate-kindness .isolation {
+    position: relative;
+    height: 10vw;
+    width: 5vw;
+    left: 94vw;
+    top: 5vw;
+}
+
+.loving-kindness .initiate-kindness .isolation-mirror {
+    position: relative;
+    height: 10vw;
+    width: 5vw;
+    top: 11vw;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    left: -94vw;
+}
+
+.loving-kindness .initiate-kindness .inner-initiate-kindess {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    margin: 2vw 6vw;
+}
+
+.loving-kindness .initiate-kindness .inner-initiate-kindess .head {
+    text-align: center;
+}
+
+.loving-kindness .initiate-kindness .inner-initiate-kindess .contents {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 6vw;
+    align-items: center;
+    text-align: justify;
+}
+
+.loving-kindness .initiate-kindness .inner-initiate-kindess .contents img {
+    height: 18vw;
+    width: 36vw;
+
+}
+
+.loving-kindness .initiate-kindness .inner-initiate-kindess .contents .p {
+    display: flex;
+    flex-direction: column;
+}
+
+.loving-kindness .initiate-kindness .inner-initiate-kindess .contents .p .ind-p {
+    display: flex;
+    gap: 1vw;
+}
+
+
+
+
+.loving-kindness .shield-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.loving-kindness .shield-sec .inner-shield-sec {
+    display: flex;
+    padding: 2vw 6vw;
+    align-items: center;
+}
+
+.loving-kindness .shield-sec .inner-shield-sec .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    width: 70%;
+}
+
+.loving-kindness .shield-sec .inner-shield-sec .image img {
+    height: 20vw;
+}
+
+
+
+
+.loving-kindness .shield-sec .inner-shield-sec .contents .p {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.loving-kindness .shield-sec .inner-shield-sec .contents .p .ind-p {
+    display: flex;
+    gap:1vw;
+    
+}
+
+
+
+
+
+.loving-kindness .shield-sec .inner-shield-sec .image {
+    padding: 2vw;
+    max-height: 35vw;
+}
+
+.loving-kindness .shield-sec .inner-shield-sec .image .img2 {
+    position: relative;
+    top: -8vw;
+    left: 10vw;
+}
+
+.loving-kindness .graditude-activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: #F3FCFC;
+
+}
+
+.loving-kindness .graditude-activity .inner-gratitude-activity {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 3vw 6vw;
+    align-items: center;
+}
+
+.loving-kindness .graditude-activity .inner-gratitude-activity .head-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    text-align: center;
+}
+
+.loving-kindness .graditude-activity .inner-gratitude-activity .head-contents .head {
+
+    width: 55%;
+}
+
+.loving-kindness .graditude-activity .inner-gratitude-activity .head-contents .blue {
+    background: #10BBC2;
+    width: 10vw;
+    height: 0.5vh;
+
+}
+
+.loving-kindness .graditude-activity .inner-gratitude-activity .head-contents .p-head {
+
+    width: 75%;
+}
+
+.loving-kindness .graditude-activity .inner-gratitude-activity .image-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.loving-kindness .graditude-activity .inner-gratitude-activity .image-contents .head {
+
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.loving-kindness .graditude-activity .inner-gratitude-activity .image-contents .images {
+    display: flex;
+    gap: 1vw;
+
+}
+
+.loving-kindness .graditude-activity .inner-gratitude-activity .image-contents .images img {
+    width: 15vw;
+    height: 15vw;
+}
+
+.loving-kindness .graditude-activity .inner-gratitude-activity .image-contents .head .color {
+    color: #10BBC2;
+}
+
+.loving-kindness .sponsorship {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.loving-kindness .sponsorship .inner-sponsor {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw 6vw;
+}
+
+
+
+.loving-kindness .sponsorship .inner-sponsor .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.loving-kindness .sponsorship .inner-sponsor .contents .sec {
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+}
+
+.loving-kindness .sponsorship .inner-sponsor .contents .sec .img {
+
+    width: 42vw;
+}
+
+.loving-kindness .sponsorship .inner-sponsor .contents .sec1 .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+
+
+
+
+.loving-kindness .sponsorship .inner-sponsor .contents .sec2 .p,
+.loving-kindness .sponsorship .inner-sponsor .contents .sec1 .contents .p {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.loving-kindness .sponsorship .inner-sponsor .contents .sec2 .p .ind-p,
+.loving-kindness .sponsorship .inner-sponsor .contents .sec1 .contents .p .ind-p {
+    display: flex;
+    gap: 1vw;
+}
+
+
+
+
+
+.loving-kindness .corporate-spon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.loving-kindness .corporate-spon .inner-corporate-spon {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw 6vw;
+    align-items: center;
+}
+
+
+
+.loving-kindness .corporate-spon .inner-corporate-spon .blue {
+    background: #10BBC2;
+    width: 10vw;
+    height: 0.5vh;
+    margin-top: 1vw;
+}
+
+.loving-kindness .corporate-spon .inner-corporate-spon .contents {
+    display: flex;
+    gap: 7vw;
+    align-items: center;
+}
+
+.loving-kindness .corporate-spon .inner-corporate-spon .contents .p {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.loving-kindness .corporate-spon .inner-corporate-spon .contents .p .ind-p {
+    display: flex;
+    gap: 1vw;
+}
+.loving-kindness .corporate-spon .inner-corporate-spon .contents .p .ind-p .p-head{
+  font-weight: 600;
+}
+
+
+
+.loving-kindness .corporate-spon .inner-corporate-spon .contents img {
+    height: 22vw;
+    width: 35vw;
+}
+
+.loving-kindness .table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 2vw 6vw;
+}
+
+.loving-kindness .table .inner-table .col-1 .head {
+    border-top-left-radius: 20px;
+    border-right: #C6C6C6 solid 0.5px;
+
+
+}
+
+.loving-kindness .table .inner-table .col-3 .head {
+    border-top-right-radius: 20px;
+    border-right: #C6C6C6 solid 0.5px;
+
+
+
+}
+
+.loving-kindness .table .inner-table {
+    display: flex;
+
+    width: 100vw;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px 0px #0000001A;
+
+}
+
+.loving-kindness .table .inner-table .col {
+    display: flex;
+    flex-direction: column;
+    min-width: 33.333%;
+}
+
+.loving-kindness .table .inner-table .col .head {
+    background-color: #10BBC2;
+    color: white;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loving-kindness .table .inner-table .col .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    height: 80%;
+    margin: 0px !important;
+    padding-bottom: 6vw;
+}
+
+.loving-kindness .table .inner-table .col .contents .p {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    padding-top: 3vw;
+}
+
+.loving-kindness .table .inner-table .col .contents .p .ind-p {
+    display: flex;
+    gap: 1vw;
+}
+
+
+
+
+.loving-kindness .table .inner-table .col-3 .contents {
+    display: flex;
+    flex-direction: row;
+    gap: 0vw;
+    padding: 0px !important;
+}
+
+
+.loving-kindness .table .inner-table .col-3 .contents {
+    flex-direction: row !important;
+}
+
+.loving-kindness .table .inner-table .col-3 .contents .colum {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loving-kindness .table .inner-table .col-3 .contents .column1 {
+    border-right: 1px solid #C6C6C6;
+}
+
+.loving-kindness .table .inner-table .col-3 .contents .colum .gr {
+    background-color: #F5F5F5;
+}
+
+.loving-kindness .table .inner-table .col-3 .contents .colum .ro {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.loving-kindness .table .inner-table .col-1 .contents,
+.loving-kindness .table .inner-table .col-2 .contents {
+    background: #10BBC20D;
+}
+
+
+
+.loving-kindness .table .inner-table .col-3 .contents .cl-1 {
+    background-color: rgb(209, 209, 209);
+}
+
+.loving-kindness .table .inner-table .col-1 .contents img {
+
+    width: 100%;
+}
+
+.loving-kindness .table .inner-table .col-1 .contents p {
+
+    text-align: center;
+
+}
+
+.loving-kindness .circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.loving-kindness .circle .inner-circle {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 6vw;
+    width: 100vw;
+    align-items: center;
+}
+
+.loving-kindness .circle .inner-circle .head {
+    text-align: center !important;
+    width: 60%;
+}
+
+.loving-kindness .circle .inner-circle .content {
+    position: relative;
+    /*    left:14vw;*/
+
+    width: 100vw;
+}
+
+
+.loving-kindness .circle .inner-circle .blue {
+    background: #10BBC2;
+    width: 7vw;
+    height: 0.8vh;
+    margin-top: 1vw;
+}
+
+.loving-kindness .circle .inner-circle .content .main {
+    position: relative;
+    left: -5vw;
+    width: 80vw;
+}
+
+.loving-kindness .circle .inner-circle .content .desktop {
+    position: relative;
+    /*    left: 8vw;*/
+    padding-left: 19vw;
+
+}
+
+.loving-kindness .circle .inner-circle .content .main .trophy {
+    position: relative;
+    top: 10vw;
+    left: 33.1vw;
+    height: 10vw;
+    width: 6vw;
+}
+
+.loving-kindness .circle .inner-circle .content .main .circle1 {
+    width: 40vw;
+    position: relative;
+    top: 5vw;
+    left: 10vw;
+}
+
+.loving-kindness .circle .inner-circle .content .main .circle2 {
+    width: 25vw;
+    position: relative;
+    top: 5vw;
+    left: -23vw;
+    z-index: -1;
+}
+
+.loving-kindness .circle .inner-circle .content .sec {
+    position: relative;
+    top: -35vw;
+    left: 6vw;
+    /* width: 1px; */
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    max-height: 31vw;
+
+}
+
+.loving-kindness .circle .inner-circle .content .sec .first {
+    position: relative;
+    height: 13vw !important;
+    width: 13vw !important;
+    left: 5vw;
+}
+
+.loving-kindness .circle .inner-circle .content .text {
+    position: relative;
+    max-height: 0px;
+    font-weight: 500;
+    top: -11vw;
+    left: 0vw;
+}
+
+.loving-kindness .circle .inner-circle .content .text .p{
+    width: 20%;
+      text-align: center;
+      font-size: 1vw; 
+      font-family: Inter;
+      font-weight: 400;
+      line-height: 2vw;
+      text-align: center;
+  }
+
+.loving-kindness .circle .inner-circle .content .text .trophy-t {
+    position: relative;
+    top: -43vw;
+    left: 24vw;
+    width: 14vw;
+}
+
+.loving-kindness .circle .inner-circle .content .text .first-t {
+    position: relative;
+    top: -61vw;
+    position: relative;
+    left: -12vw;
+    width: 21vw;
+}
+
+.loving-kindness .circle .inner-circle .content .text .second-t {
+    position: relative;
+    top: -66vw;
+    left: 51vw;
+    width: 25vw;
+}
+
+.loving-kindness .circle .inner-circle .content .text .third-t {
+    position: relative;
+    top: -56vw;
+    left: -15vw;
+    width: 20vw;
+}
+
+.loving-kindness .circle .inner-circle .content .text .fourth-t {
+    position: relative;
+    top: -61vw;
+    left: 55vw;
+    width: 23vw;
+}
+
+.loving-kindness .circle .inner-circle .content .text .fifth-t {
+    position: relative;
+    top: -49vw;
+    left: -10vw;
+    width: 20vw;
+}
+
+.loving-kindness .circle .inner-circle .content .text .sixth-t {
+    position: relative;
+    top: -60vw;
+    left: 51vw;
+    width: 19vw;
+}
+
+.loving-kindness .circle .inner-circle .content .text .seventh-t {
+    position: relative;
+    top: -48vw;
+    left: 15vw;
+    width: 32vw;
+}
+
+.loving-kindness .circle .inner-circle .content .text .color-blue {
+    color: #10BBC2;
+}
+
+
+
+
+.loving-kindness .circle .inner-circle .content .sec .img {
+    height: 13vw !important;
+    width: 13vw !important;
+}
+
+.loving-kindness .circle .inner-circle .content .sec .img2 {
+    height: 10vw !important;
+    width: 10vw !important;
+}
+
+.loving-kindness .circle .inner-circle .content .sec .first {
+    height: 11vw !important;
+    width: 10vw !important;
+    top: -1vw;
+}
+
+.loving-kindness .circle .inner-circle .content .sec .second {
+    position: relative;
+    height: 13vw !important;
+    width: 14vw !important;
+    left: 30vw;
+    top: -12vw;
+
+}
+
+.loving-kindness .circle .inner-circle .content .sec .third {
+    position: relative;
+    height: 11vw !important;
+    width: 11vw !important;
+    top: -9vw;
+
+}
+
+.loving-kindness .circle .inner-circle .content .sec .fourth {
+    position: relative;
+    height: 13vw !important;
+    width: 14vw !important;
+    top: -20vw;
+    left: 36vw;
+
+}
+
+.loving-kindness .circle .inner-circle .content .sec .fifth {
+    position: relative;
+    height: 10vw !important;
+    width: 12vw !important;
+    top: -16vw;
+    left: 4vw;
+}
+
+.loving-kindness .circle .inner-circle .content .sec .sixth {
+    position: relative;
+    top: -23vw;
+    left: 18vw;
+    width: 15vw !important;
+    height: 13vw !important;
+}
+
+.loving-kindness .circle .inner-circle .content .sec .seventh {
+    position: relative;
+    top: -42vw;
+    left: 25vw;
+    width: 24vw !important;
+    height: 14vw !important;
+
+
+}
+
+.loving-kindness .table .inner-table .col-1 .contents {
+    border-bottom-left-radius: 20px;
+    border-right: #C6C6C6 solid 0.5px;
+}
+
+.loving-kindness .table .inner-table .col-3 .contents {
+    border-bottom-right-radius: 20px;
+    border-left: #C6C6C6 solid 0.5px;
+    font-weight: 600;
+}
+.loving-kindness .graditude-activity .inner-gratitude-activity .head-contents .p-head .font-weight{
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width:800px) {
+    .loving-kindness .growing-sec .inner-growing-sec .minor-d {
+
+        width: 90vw !important;
+    }
+
+    .loving-kindness .table .inner-table .col-1 .contents {
+        border-bottom-left-radius: 0 !important;
+        border-right: none !important;
+    }
+
+    .loving-kindness .table .inner-table .col-3 .contents {
+        border-bottom-right-radius: 0 !important;
+        border-left: none !important;
+    }
+
+    .loving-kindness .table .inner-table .col-1 .head {
+        border-top-left-radius: 0 !important;
+        border-right: none !important;
+
+    }
+
+    .loving-kindness .table .inner-table .col-3 .head {
+        border-top-right-radius: 0 !important;
+        border-left: none !important;
+    }
+    .loving-kindness .debate .image img {
+    width: 100vw;
+    height: 100%;
+}
+
+
+    .loving-kindness .debate .content {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative !important;
+        max-width: 100%;
+        padding: 1vw 5vw !important;
+        text-align: justify !important;
+    }
+
+    .loving-kindness .debate .content .p {
+        position: relative;
+
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-evenly !important;
+
+    }
+
+  
+
+    .loving-kindness .region-shield .inner-region {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        width: 90%;
+        padding: 3vw;
+    }
+
+    .loving-kindness .activity .inner-activity {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        align-items: center;
+        text-align: justify;
+        width: 90%;
+    }
+
+
+
+    .loving-kindness .activity .inner-activity .blue {
+        background: #10BBC2;
+        width: 33vw;
+        height: 0.3vh;
+        margin-top: 1vw;
+    }
+
+    .loving-kindness .activity .inner-activity .contents .sec .image{
+        width: 80vw;
+        height: 40vw;
+        padding: 2vw;
+    }
+
+    .loving-kindness .participent .inner-participent {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .loving-kindness .participent .inner-participent .head {
+
+        width: 82%;
+        text-align: center;
+    }
+
+    .loving-kindness .participent .inner-participent .blue {
+        background: #10BBC2;
+        width: 20vw;
+        height: 0.3vh;
+        margin-top: 1vw;
+    }
+
+    .loving-kindness .participent .inner-participent .contents img {
+        height: 40vw;
+        width: 80vw;
+    }
+
+    .loving-kindness .participent .inner-participent .contents {
+        display: flex;
+        gap: 3vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+   
+
+
+
+    .loving-kindness .activity .inner-activity .contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+  
+
+
+
+    .loving-kindness .activity .inner-activity .contents .sec-1 {
+        display: flex;
+        gap: 2vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .loving-kindness .activity .inner-activity .contents .sec-2 {
+        display: flex;
+        gap: 2vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .loving-kindness .growing-sec .inner-growing-sec .major-div {
+
+        max-width: 90%;
+    }
+
+  
+
+
+
+
+
+    .loving-kindness .do .inner-do .contents img {
+        height: 40vw;
+        width: 73vw;
+    }
+
+    .loving-kindness .do .inner-do .blue {
+        width: 15vw;
+    }
+
+
+
+
+
+
+
+
+
+  
+
+    .loving-kindness .dont-do .inner-dont .head {
+
+        text-align: center;
+
+    }
+
+    .loving-kindness .dont-do .inner-dont .blue {
+        background: #10BBC2;
+        width: 22vw;
+        height: 0.4vh;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .loving-kindness .dont-do .inner-dont .dont {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    .loving-kindness .dont-do .inner-dont .dont .head {
+
+        text-align: center;
+    }
+
+    .loving-kindness .dont-do .inner-dont .dont .contents img {
+        height: 50vw;
+        width: 90vw;
+    }
+
+    
+
+
+
+    .loving-kindness .spread-kindness .inner-spread-kindness {
+        display: flex;
+        gap: 3vw;
+        padding: 2vw 6vw;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .loving-kindness .spread-kindness .inner-spread-kindness .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        align-items: center;
+        text-align: justify;
+    }
+
+
+
+    .loving-kindness .spread-kindness .inner-spread-kindness .contents .p {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+    }
+
+    
+
+
+
+    .loving-kindness .spread-kindness .inner-spread-kindness img {
+        width: 60vw;
+        height: 55vw;
+    }
+
+    .loving-kindness .initiate-kindness {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("./Assets/loving kindness/Rectangle 298.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        position: relative;
+    }
+
+    .loving-kindness .initiate-kindness .inner-initiate-kindess {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        margin: 2vw 5vw;
+    }
+
+    .loving-kindness .initiate-kindness .inner-initiate-kindess .head {
+        text-align: center;
+    }
+
+    .loving-kindness .initiate-kindness .inner-initiate-kindess .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 6vw;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .loving-kindness .initiate-kindness .inner-initiate-kindess .contents img {
+        height: auto;
+        width: 68vw;
+    }
+
+    .loving-kindness .initiate-kindness .inner-initiate-kindess .contents .p {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    .loving-kindness .initiate-kindness .inner-initiate-kindess .contents .p .ind-p {
+        display: flex;
+        gap: 4vw;
+    }
+
+    
+
+    .loving-kindness .shield-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .loving-kindness .shield-sec .inner-shield-sec {
+        display: flex;
+        gap: 5vw;
+        padding: 2vw 6vw;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .loving-kindness .shield-sec .inner-shield-sec .image {
+        padding: 4vw;
+        min-height: 45vw;
+        position: relative;
+        left: 13vw;
+        top: 5vw;
+    }
+
+    .loving-kindness .shield-sec .inner-shield-sec .image img {
+        width: 50vw;
+        height: 30vw;
+    }
+
+    .loving-kindness .shield-sec .inner-shield-sec .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        width: 95%;
+    }
+
+    .loving-kindness .shield-sec .inner-shield-sec .contents .head {
+
+        text-align: center;
+    }
+
+    .loving-kindness .shield-sec .inner-shield-sec .contents .p {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        text-align: justify;
+    }
+
+    .loving-kindness .shield-sec .inner-shield-sec .contents .p .ind-p {
+        display: flex;
+        gap: 3vw;
+    }
+
+    
+
+
+
+    .loving-kindness .do .inner-do .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        align-items: center;
+    }
+
+    .loving-kindness .dont-do .inner-dont .dont .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        align-items: center;
+    }
+
+    .loving-kindness .graditude-activity .inner-gratitude-activity {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        padding: 2vw 6vw;
+        align-items: center;
+    }
+
+    .loving-kindness .graditude-activity .inner-gratitude-activity .head-contents {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        align-items: center;
+        text-align: center;
+    }
+
+    .loving-kindness .graditude-activity .inner-gratitude-activity .head-contents .head {
+
+        width: 80%;
+    }
+
+    .loving-kindness .graditude-activity .inner-gratitude-activity .head-contents .blue {
+        background: #10BBC2;
+        width: 10vw;
+        height: 0.2vh;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .loving-kindness .graditude-activity .inner-gratitude-activity .head-contents .p-head {
+
+        width: 80%;
+    }
+
+    .loving-kindness .graditude-activity .inner-gratitude-activity .image-contents {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loving-kindness .graditude-activity .inner-gratitude-activity .image-contents .head {
+
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .loving-kindness .graditude-activity .inner-gratitude-activity .image-contents .images {
+        display: flex;
+        gap: 2vw;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loving-kindness .graditude-activity .inner-gratitude-activity .image-contents .images img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .loving-kindness .sponsorship .inner-sponsor {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        padding: 2vw 9vw;
+    }
+
+
+
+    .loving-kindness .sponsorship .inner-sponsor .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+    }
+
+    .loving-kindness .sponsorship .inner-sponsor .contents .sec1 {
+        display: flex;
+        gap: 4vw;
+        flex-direction: column-reverse;
+    }
+
+    .loving-kindness .sponsorship .inner-sponsor .contents .sec2 {
+        display: flex;
+        gap: 4vw;
+        flex-direction: column;
+    }
+
+    .loving-kindness .sponsorship .inner-sponsor .contents .sec1 .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+
+
+    .loving-kindness .sponsorship .inner-sponsor .contents .sec2 .p,
+    .loving-kindness .sponsorship .inner-sponsor .contents .sec1 .contents .p {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+
+    }
+
+
+   
+
+
+
+    .loving-kindness .shield-sec .inner-shield-sec .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        width: 95%;
+        margin-top: 18vw;
+    }
+
+    .loving-kindness .corporate-spon .inner-corporate-spon .head {
+
+        text-align: center;
+    }
+
+    .loving-kindness .corporate-spon .inner-corporate-spon .blue {
+        background: #10BBC2;
+        width: 22vw;
+        height: 0.1vh;
+        margin-top: 1vw;
+    }
+
+    .loving-kindness .corporate-spon .inner-corporate-spon .contents {
+        display: flex;
+        gap: 3vw;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .loving-kindness .corporate-spon .inner-corporate-spon .contents .p {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    .loving-kindness .corporate-spon .inner-corporate-spon .contents img {
+        height: 40vw;
+        width: 80vw;
+    }
+
+    .loving-kindness .corporate-spon .inner-corporate-spon .contents .p {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    .loving-kindness .corporate-spon .inner-corporate-spon .contents .p .ind-p {
+        display: flex;
+        gap: 3vw;
+    }
+
+    .loving-kindness .corporate-spon .inner-corporate-spon .contents .p .ind-p .p-head {
+        font-weight: 700;
+    }
+
+   
+
+
+    .loving-kindness .sponsorship .inner-sponsor .contents .sec .img {
+        height: 40vw;
+        width: 80vw;
+    }
+
+    .loving-kindness .table .inner-table .col {
+        display: flex;
+        flex-direction: column;
+
+        min-width: 80vw;
+    }
+
+    .loving-kindness .table .inner-table .col .head {
+        background-color: #10BBC2;
+        color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loving-kindness .table .inner-table {
+        display: flex;
+        padding: 2vw 6vw;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .loving-kindness .table .inner-table .col .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        padding: 4vw 3vw;
+    }
+
+    .loving-kindness .table .inner-table .col .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 0vw;
+        padding: 1vw 3vw;
+    }
+
+    .loving-kindness .table .inner-table .col .contents .p {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        padding-top: 3vw;
+    }
+
+    .loving-kindness .table .inner-table .col .contents .p .ind-p {
+        display: flex;
+        gap: 1vw;
+    }
+
+   
+
+    .loving-kindness .table .inner-table .col .contents .p .ind-p p {
+
+        text-align: justify;
+    }
+
+
+    .loving-kindness .table .inner-table .col-3 .contents .cl-1 {
+        background-color: rgb(209, 209, 209);
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loving-kindness .table .inner-table .col-3 .contents .cl-1 {
+        background-color: rgb(209, 209, 209);
+        display: flex;
+        gap: 2vw;
+    }
+
+    .loving-kindness .circle .inner-circle .content .mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        align-items: center;
+    }
+
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main .item {
+        display: flex;
+        gap: 3vw;
+        width: 70%;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main .item img {
+        height: 140px;
+        width: 80px;
+    }
+
+
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main .item .first {
+        /* height: 11vw !important; */
+        height: 130px !important;
+        width: 124px !important;
+    }
+
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main .item .second {
+        position: relative;
+        height: 160px !important;
+        width: 161px !important;
+
+    }
+
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main .item .third {
+        position: relative;
+        /* height: 11vw !important; */
+        /* width: 11vw !important; */
+        height: 131px !important;
+        width: 126px !important;
+
+    }
+
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main .item .fourth {
+        position: relative;
+        /* height: 13vw !important; */
+        /* width: 14vw !important; */
+        height: 160px !important;
+        width: 150px !important;
+
+    }
+
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main .item .fifth {
+        position: relative;
+        /* height: 10vw !important; */
+        /* width: 12vw !important; */
+        height: 125px !important;
+        width: 150px !important;
+    }
+
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main .item .sixth {
+        position: relative;
+        /* width: 15vw !important; */
+        /* height: 13vw !important; */
+        height: 160px !important;
+        width: 179px !important;
+        left: 4vw;
+    }
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main .item div{
+      text-align: center;
+    }
+.loving-kindness .family .family-sec .main .content{
+  display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 100%; 
+    position: relative;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+    .loving-kindness .circle .inner-circle .content .mobile .inner-main .item .seventh {
+        position: relative;
+        /* width: 24vw !important; */
+        /* height: 14vw !important; */
+        height: 172px !important;
+        width: 274px !important;
+        left: -6vw;
+
+    }
+
+    .loving-kindness .circle .inner-circle .content {
+        left: 1px;
+
+    }
+
+    .loving-kindness .circle .inner-circle .content .desktop {
+        display: none;
+    }
+
+    .circle .inner-circle .content .mobile {
+        display: inline !important;
+    }
+
+}
+
+.head-tag {
+    font-size: 40px;
+    font-weight: 600 ;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+.loving-kindness .p-tag {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px ;
+    font-weight: 500;
+}
+
+.loving-kindness .icon-s {
+    height: 20px !important;
+    width: 20px !important;
+    position: relative;
+    top: 3px !important;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .loving-kindness .head-tag {
+        font-size: 35px ;
+        font-weight: 600 ;
+        line-height: 48px;
+    }
+
+    .p-tag {
+        font-size: 15px ;
+        text-align: justify;
+        line-height: 34px ;
+        font-weight: 500;
+    }
+
+    .loving-kindness .p-tag2 {
+        font-size: 17px ;
+        text-align: justify;
+        line-height: 34px ;
+    }
+
+    .loving-kindness .icon-s {
+               height: 17px ;
+        width: 17px ;
+        position: relative;
+        top: 0.5vw ;
+
+    }
+
+    .loving-kindness .p-tag3 {
+        font-size: 17px !important;
+        text-align: justify;
+        line-height: 34px !important;
+        font-weight: 600;
+    }
+
+}

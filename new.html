@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowchart Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      *  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+}
+
+.circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px dashed #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content {
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.step {
+    position: absolute;
+    width: 200px;
+    background-color: #e9f7fd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.step .content {
+    text-align: center;
+}
+
+.step .step-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Positioning the steps around the circle */
+#step1 { top: 5%; left: 50%; transform: translate(-50%, -50%); }
+#step2 { top: 25%; left: 85%; transform: translate(-50%, -50%); }
+#step3 { top: 50%; left: 95%; transform: translate(-50%, -50%); }
+#step4 { top: 75%; left: 85%; transform: translate(-50%, -50%); }
+#step5 { top: 95%; left: 50%; transform: translate(-50%, -50%); }
+#step6 { top: 75%; left: 15%; transform: translate(-50%, -50%); }
+#step7 { top: 25%; left: 15%; transform: translate(-50%, -50%); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle">
+            <div class="content center-content">
+                <img src="trophy.png" alt="Trophy">
+                <p>In this activity, the Bullz NGO releases shields (trophies) adorned with below messages:</p>
+            </div>
+            <div class="step" id="step1">
+                <div class="content">
+                    <div class="step-number">01</div>
+                    <p>Bullz NGO gives the shield to a particular person "A" anywhere in the world, irrespective of race, color, culture, origin, community, or gender.</p>
+                </div>
+            </div>
+            <div class="step" id="step2">
+                <div class="content">
+                    <div class="step-number">02</div>
+                    <p>Person "A," in turn, will share the shield as a gift with some other person "B," to whom "A" wants to shower his unspoken loving kindness and gratitude.</p>
+                </div>
+            </div>
+            <div class="step" id="step3">
+                <div class="content">
+                    <div class="step-number">03</div>
+                    <p>In this way, both person "A" and person "B" will feel happy.</p>
+                </div>
+            </div>
+            <div class="step" id="step4">
+                <div class="content">
+                    <div class="step-number">04</div>
+                    <p>...</p>
+                </div>
+            </div>
+            <div class="step" id="step5">
+                <div class="content">
+                    <div class="step-number">05</div>
+                    <p>Thousands and thousands of shields will be released every month by Bullz NGO and distributed to different individuals.</p>
+                </div>
+            </div>
+            <div class="step" id="step6">
+                <div class="content">
+                    <div class="step-number">06</div>
+                    <p>Each shield will travel indefinitely, reaching millions and millions of people across the world.</p>
+                </div>
+            </div>
+            <div class="step" id="step7">
+                <div class="content">
+                    <div class="step-number">07</div>
+                    <p>Millions and millions of Loving Kindness and Gratitude moments will be created.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
